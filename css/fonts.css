@@ -1,0 +1,188 @@
+.nav a {
+  font-family: "Georgia", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.15em;
+  color: #FFFFFF;
+}
+.nav a:hover {
+  font-family: "Farro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #B4C17A;
+  text-shadow: 1.5px 1.5px 2px rgba(1, 63, 75, 0.5);
+  transition: 0.5s all;
+}
+
+.title-text__first {
+  font-family: "20th Century Font", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 0.15em;
+  color: #153A46;
+}
+.title-text__sub {
+  font-family: "20th Century Font", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.15em;
+  color: #153A46;
+}
+
+.about-title__text {
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #000000;
+}
+.about-subtitle__text h2 {
+  font-family: "Roboto", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  font-variant: small-caps;
+  color: #FFFFFF;
+}
+.about-subtitle__text p {
+  font-family: "Roboto", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  font-variant: small-caps;
+  color: #FFFFFF;
+}
+
+.skills-title__text {
+  margin-bottom: 85px;
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #000000;
+}
+
+.education-title__text {
+  margin-bottom: 85px;
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #000000;
+}
+.education-subtitle__text p {
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.15em;
+  color: #000000;
+}
+.education-subtitle__text ul {
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.15em;
+  color: #000000;
+}
+
+.events-title__text {
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #000000;
+}
+.events-subtitle__text {
+  font-family: "Georgia", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.15em;
+  color: #000000;
+}
+
+.portfolio-title__text {
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #000000;
+}
+.portfolio-project button {
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.15em;
+  color: #000000;
+}
+
+.contacts-title__text {
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0.15em;
+  color: #000000;
+}
+.contacts-text {
+  font-family: "20th Century Font", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.15em;
+  color: #153A46;
+}
+
+footer span {
+  font-family: "20th Century Font", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.15em;
+  color: #FFFFFF;
+}
+
+.offcanvas-body h3 {
+  font-family: "Roboto", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.15em;
+  font-variant: small-caps;
+  text-transform: uppercase;
+  color: #0A0A0A;
+}
+.offcanvas-body p {
+  font-family: "Roboto", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #0A0A0A;
+}/*# sourceMappingURL=fonts.css.map */

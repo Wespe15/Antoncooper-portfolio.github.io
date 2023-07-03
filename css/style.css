@@ -1,0 +1,164 @@
+a {
+  text-decoration: none;
+}
+
+.title-hover::after {
+  display: block;
+  content: "";
+  margin-top: 35px;
+  height: 3px;
+  background: #000000;
+  width: 0%;
+  transition: width 0.5s ease-in-out;
+}
+.title-hover:hover::after {
+  width: 100%;
+}
+
+.nav {
+  padding: 51px 0 47px 0;
+  background: #5B1E59;
+}
+.nav a::after {
+  display: block;
+  content: "";
+  margin-top: 8px;
+  height: 1px;
+  background: #DBF1AD;
+  width: 0%;
+  transition: width 0.5s ease-in-out;
+}
+.nav a:hover::after {
+  width: 75%;
+}
+
+.title {
+  min-height: 86vh;
+  padding-top: 78px;
+  background: url("../img/background_font.png") center no-repeat;
+  background-size: cover;
+}
+.title-logo {
+  padding-bottom: 79px;
+}
+.title-card {
+  background: rgba(255, 251, 251, 0.75);
+  box-shadow: 5px 10px 50px 5px rgba(11, 9, 21, 0.25);
+  backdrop-filter: blur(7.5px);
+  border-radius: 50px;
+}
+.title-text {
+  padding-top: 20px;
+}
+
+.about {
+  margin-top: 237px;
+}
+.about-title__text {
+  padding-bottom: 84px;
+}
+.about-subtitle {
+  padding-bottom: 20px;
+  background: rgba(25, 25, 25, 0.85);
+  box-shadow: 5px 6px 25px rgba(36, 36, 38, 0.75);
+  border-radius: 120px;
+}
+.about-subtitle__text h2 {
+  padding-top: 25px;
+}
+.about-subtitle__text p {
+  padding-top: 30px;
+}
+
+.skills {
+  margin-top: 151px;
+}
+.skills-logo {
+  margin: 0 auto;
+}
+.skills-logo img {
+  padding-bottom: 50px;
+}
+
+.education {
+  margin-top: 150px;
+}
+.education-title__text {
+  margin-bottom: 85px;
+}
+.education-subtitle {
+  padding: 32px 0 32px 0;
+  background: #F7F7F7;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.25), inset 5px 5px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+.education-subtitle__text p {
+  margin-left: 75px;
+}
+.education-subtitle__text ul li {
+  padding-left: 75px;
+}
+.education-subtitle__text ul li strong {
+  color: red;
+}
+
+.events {
+  margin-top: 150px;
+}
+.events-title__text {
+  margin-bottom: 85px;
+  padding-bottom: 0px;
+}
+.events-subtitle {
+  padding: 15px 0px;
+  padding-bottom: 0px;
+  background: #F7F7F7;
+  box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.25), inset 5px 5px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+.events-subtitle__text {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.15em;
+  color: #000000;
+}
+.events-prize {
+  margin-top: 50px;
+}
+.events-prize img {
+  margin-bottom: 20px;
+}
+.events-prize img:hover {
+  cursor: pointer;
+  transform: scale(2.5);
+  transition: 1.5s all;
+}
+
+.portfolio {
+  margin-top: 151px;
+}
+.portfolio-project {
+  margin-top: 88px;
+}
+
+.contacts {
+  margin-top: 150px;
+}
+.contacts-img {
+  margin-top: 80px;
+  min-height: 55px;
+}
+.contacts-text {
+  margin-top: 30px;
+}
+
+footer {
+  margin-top: 100px;
+  padding: 37px 0 38px 0;
+  background: #0F0E0E;
+}
+footer span {
+  padding-left: 25px;
+}/*# sourceMappingURL=style.css.map */
