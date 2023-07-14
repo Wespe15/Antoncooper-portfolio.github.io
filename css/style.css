@@ -47,6 +47,9 @@ a {
   backdrop-filter: blur(7.5px);
   border-radius: 50px;
 }
+.title .img-fluid {
+  border-radius: 50px;
+}
 .title-text {
   padding-top: 20px;
 }
