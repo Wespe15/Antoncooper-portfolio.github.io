@@ -96,10 +96,10 @@ a {
   border-radius: 50px;
 }
 .education-subtitle__text p {
-  margin-left: 75px;
+  padding-left: 75px;
 }
 .education-subtitle__text ul li {
-  padding-left: 75px;
+  list-style: none;
 }
 .education-subtitle__text ul li strong {
   color: red;
