@@ -1,4 +1,19 @@
-a {
+:root{
+  --bg-color: #1f242d;
+  --second-bg-color: #323946;
+  --text-color: #fff;
+  --main-color: aqua;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--text-color);
+}
+
+a{
   text-decoration: none;
 }
 
@@ -17,7 +32,12 @@ a {
 
 .nav {
   padding: 51px 0 47px 0;
-  background: #5B1E59;
+  background: var(--bg-color);
+}
+.nav a:hover, .nav a.active{
+  color: var(--main-color);
+  text-shadow: 0 0 .1em var(--text-color);
+  transform: translate(2.5px);
 }
 .nav a::after {
   display: block;
@@ -32,8 +52,39 @@ a {
   width: 75%;
 }
 
+.dnt a{
+  padding: .75em;
+  background: coral;
+  box-shadow: 0 0 .75em chocolate;
+  border-radius: 3em;
+  color: var(--text-color);
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: .1em;
+  transition: .25s cubic-bezier(.12,.58,.9,.53);
+  transition-duration: .5s;
+  animation-delay: 1s;
+}
+.dnt a:hover{
+  color: #210942;
+  box-shadow: 0 0 1em cornsilk;
+  background: var(--main-color);
+}
+/* .dnt a::after{
+  display: block;
+  content: "";
+  margin-top: 8px;
+  height: 1px;
+  background: #8d1134;
+  width: 0%;
+  transition: width 1s ease-in;
+}
+.dnt a:hover::after {
+  width: 90%;
+} */
+
 .title {
-  min-height: 86vh;
+  min-height: 100vh;
   padding-top: 78px;
   background: url("../img/background_font.png") center no-repeat;
   background-size: cover;
@@ -42,7 +93,7 @@ a {
   padding-bottom: 79px;
 }
 .title-card {
-  background: rgba(255, 251, 251, 0.75);
+  background: var(--bg-color);
   box-shadow: 5px 10px 50px 5px rgba(11, 9, 21, 0.25);
   backdrop-filter: blur(7.5px);
   border-radius: 50px;
@@ -52,6 +103,12 @@ a {
 }
 .title-text {
   padding-top: 20px;
+}
+.title h1{
+  color: var(--text-color);
+}
+.title p{
+  color: var(--text-color);
 }
 
 .about {
